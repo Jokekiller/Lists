@@ -10,5 +10,6 @@ for name in nameList:
     print(name)
 name_range = int(input("Enter a range value 1: "))
 name_range2 = int(input("Enter a range value 2: "))
-range_of_names = nameList[name_range, name_range2]
-print(range_of_names)
+print (nameList[name_range:name_range2])
+
+
